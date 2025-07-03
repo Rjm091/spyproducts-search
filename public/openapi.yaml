@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: SpyProducts Search API
+  version: "1.0.0"
+servers:
+  - url: https://spyproducts-search.vercel.app
+paths:
+  /search:
+    get:
+      parameters:
+        - in: query
+          name: q
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
