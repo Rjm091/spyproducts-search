@@ -1,0 +1,8 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "spyproducts",
+  "api": {
+    "type": "openapi",
+    "url": "https://spyproducts-search.vercel.app/openapi.yaml"
+  }
+}
